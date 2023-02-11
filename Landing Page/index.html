@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokemon Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <img src="https://cdn-icons-png.flaticon.com/512/2094/2094510.png" alt="pokeball" id="header-img">
+        <h1 class="title">Pokemon Store</h1>
+        <nav id="nav-bar">
+            <ul>
+                <li ><a href="#features" class="nav-link">Features</a></li>
+                <li ><a href="#multi-media" class="nav-link">How it works</a></li>
+                <li ><a href="#products" class="nav-link">Products</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <header id="main-header">
+            <form action="https://www.freecodecamp.com/email-submit" id="form" method="get">
+                <h1 id="title-product">Every Pokemon at your disposal!</h1>
+                <input type="email" id="email" placeholder="Enter your email address" required name="email">
+                <input type="submit" id="submit" title="Get Started" value="Get Started">
+            </form>
+        </header>
+        <section class="features" id="features">
+            <ul class="features-list">
+                <li class="feature-elem"><img src="https://cdn-icons-png.flaticon.com/512/188/188920.png" alt="premiun materials"><h2>Premium Materials</h2><p>Our pokemons are from the first generation and are still the best. This will increase the longevity of your purchase.</p></li>
+                <li class="feature-elem"><img src="https://cdn-icons-png.flaticon.com/512/188/188919.png" alt="fast shipping"><h2>Fast Shipping</h2><p>We make sure you receive your pokemon as soon as we have finished breeding it. We also offer free returns if you are not satisfied.</p></li>
+                <li class="feature-elem"><img src="https://cdn-icons-png.flaticon.com/512/188/188940.png" alt="quality"><h2>Quality Assurance</h2><p>For every purchase you make, we will make sure they are not sick or misbehaving and we will check and test the friendliness of your pokemon.</p></li>
+            </ul>
+        </section>
+        <section class="multi-media" id="multi-media">
+            <iframe id="video" src="https://www.youtube-nocookie.com/embed//bV-3YkJ-gLo?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+        </section>
+        <section class="products" id="products">
+            <div class="product" id="product-1">
+                <div class="product-header">
+                    <h2 class="product-name">Charmander</h2>
+                </div>
+                <h3 class="product-price">$999</h3>
+                <p class="product-description">RedFire</p>
+                <img src="https://www.pokencyclopedia.info/sprites/spin-off/ico_shuffle/ico_shuffle_004.png" alt="charmander" class="product-image">
+                <button class="select">Select</button>
+            </div>
+            <div class="product" id="product-2">
+                <div class="product-header">
+                    <h2 class="product-name">Bulbasaur</h2>
+                </div>
+                <h3 class="product-price">$999</h3>
+                <p class="product-description">LeafGreen</p>
+                <img src="https://www.pokencyclopedia.info/sprites/spin-off/ico_shuffle/ico_shuffle_002.png" alt="bulbasaur" class="product-image">
+                <button class="select">Select</button>
+            </div>
+            <div class="product" id="product-3">
+                <div class="product-header">
+                    <h2 class="product-name">Squirtle</h2>
+                </div>
+                <h3 class="product-price">$999</h3>
+                <p class="product-description">AquaBlue</p>
+                <img src="https://www.pokencyclopedia.info/sprites/spin-off/ico_shuffle/ico_shuffle_007.png" alt="squirtle" class="product-image">
+                <button class="select">Select</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li class="footer-list">Privacy</li>
+            <li class="footer-list">Term</li>
+            <li class="footer-list">Contact</li>
+        </ul>
+        <p id="copyright-date">Copyright 2023, Original Pokemmmmon</p>
+    </footer>
+    
+</body>
+</html>
